@@ -1,0 +1,10 @@
+Github source
+
+Osnovne komande:
+$git init - pravi(initialize) folder
+$git add <file> - dodaje file u staging dio(spreman za commit)
+$git status
+$git commit - commit changes
+$git push - dodaje commit u github repository
+$git pull - uzima zadnje promjene 
+$git clone - kopira repository u novi file(directory)
