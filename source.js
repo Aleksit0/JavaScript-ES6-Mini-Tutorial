@@ -166,3 +166,28 @@ const add = (num1 + num2) => {
     return num1 + num2;
 }
 console.log(add(5, 5));
+
+// OOP
+function Person(ime, prezime, dr) {
+    this.ime = ime;
+    this.prezime = prezime;
+    this.dr = new Date(dr);
+    
+    this.getFullName = function() {
+        return  `${ime} ${prezime}`;
+    }
+}
+
+// Pravimo object
+const person1 = new Person('Mike', 'McHam', '1-2-1990'); // new = constructor
+console.log(person.ime);
+console.log(person1.getFullName);
+
+//  Class
+class Person {
+    constructor(ime, prezime, dr) {
+        this.ime = ime;
+        this.prezime = prezime;
+        this.dr = new Date(dr);
+    }
+}
